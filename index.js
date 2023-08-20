@@ -14,7 +14,7 @@ app.get(`/${CONTACT_ROUTE}`, (req, res) => {
   }
 
   res.json({
-    mes: 'Please contact with the information',
+    mes: 'Please contact to Me',
     info
   })
 })
