@@ -4,8 +4,8 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        // git 'https://github.com/minhbear/jenkins-pipeline.git'
-        echo 'ok'
+        git 'https://github.com/minhbear/jenkins-pipeline.git'
+        echo 'success'
       }
     }
   }
