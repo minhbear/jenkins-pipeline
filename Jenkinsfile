@@ -3,7 +3,9 @@ pipeline {
 
   stages {
     stage('Clone') {
-      git 'https://github.com/minhbear/NodeJs-CICD-with-Jenkins.git'
+      steps {
+        git 'https://github.com/minhbear/NodeJs-CICD-with-Jenkins.git'
+      }
     }
   }
 }
